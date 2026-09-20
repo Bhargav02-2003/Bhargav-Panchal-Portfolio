@@ -68,15 +68,15 @@ export const Navbar: React.FC = () => {
           >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-600 to-blue-600 p-[1.5px] shadow-lg shadow-purple-500/20 group-hover:shadow-purple-500/40 transition-all">
               <div className="w-full h-full bg-[#0d121f] rounded-[10px] flex items-center justify-center">
-                <span className="font-mono text-sm font-bold text-white tracking-wider">BK</span>
+                <span className="font-mono text-sm font-bold text-white tracking-wider">BP</span>
               </div>
             </div>
             <div className="flex flex-col">
-              <span className="text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
-                Bhargav<span className="text-purple-400">.dev</span>
+              <span className="text-base sm:text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
+                Bhargav Panchal<span className="text-purple-400">.dev</span>
               </span>
               <span className="text-[10px] text-slate-400 font-mono tracking-wider uppercase -mt-0.5">
-                Full Stack Dev
+                Full Stack Developer
               </span>
             </div>
           </a>

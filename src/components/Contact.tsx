@@ -5,12 +5,14 @@ import {
   Sparkles, 
   ExternalLink,
   Clock,
-  MapPin
+  MapPin,
+  Phone
 } from 'lucide-react';
 
 export const Contact: React.FC = () => {
-  const githubUrl = 'https://github.com/bhargav';
-  const linkedinUrl = 'https://linkedin.com/in/bhargav-developer';
+  const githubUrl = 'https://github.com/Bhargav02-2003';
+  const linkedinUrl = 'https://linkedin.com/in/bhargav-panchal-3a19aa3b3';
+  const phone = '+91 9607058922';
 
   return (
     <section id="contact" className="py-24 relative overflow-hidden">
@@ -31,7 +33,7 @@ export const Contact: React.FC = () => {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl mx-auto">
-            Whether you are looking for a Full Stack Developer for production fintech systems, enterprise platforms, or modern MERN engineering, connect directly via my professional channels.
+            Whether you are looking for a Full Stack Developer for production FinTech systems, enterprise platforms, or modern MERN engineering, connect directly via my professional channels.
           </p>
         </div>
 
@@ -47,10 +49,10 @@ export const Contact: React.FC = () => {
                 LinkedIn Network
               </span>
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-300 transition-colors">
-                Bhargav Developer
+                Bhargav Panchal
               </h3>
               <p className="text-xs text-slate-400 leading-relaxed mb-6">
-                Connect for professional networking, mutual colleagues, discussions, and project opportunities.
+                Connect for professional networking, engineering opportunities, and technical discussions.
               </p>
             </div>
 
@@ -77,7 +79,7 @@ export const Contact: React.FC = () => {
                 Code & Repositories
               </span>
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-purple-300 transition-colors">
-                GitHub Portfolio
+                Bhargav02-2003
               </h3>
               <p className="text-xs text-slate-400 leading-relaxed mb-6">
                 Explore open-source contributions, public repositories, and full-stack software architectures.
@@ -105,19 +107,19 @@ export const Contact: React.FC = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
             </span>
-            <span className="font-semibold text-white">Current Status:</span>
+            <span className="font-semibold text-white">Status:</span>
             <span className="text-slate-400">Available for Opportunities</span>
           </div>
 
-          <div className="flex items-center gap-4 text-slate-400">
-            <div className="flex items-center gap-1.5">
-              <Clock className="w-3.5 h-3.5 text-purple-400" />
-              <span>Response: &lt; 24h</span>
+          <div className="flex flex-wrap items-center gap-4 text-slate-400">
+            <div className="flex items-center gap-1.5 text-slate-300">
+              <Phone className="w-3.5 h-3.5 text-emerald-400" />
+              <span>{phone}</span>
             </div>
             <span>•</span>
-            <div className="flex items-center gap-1.5">
+            <div className="flex items-center gap-1.5 text-slate-300">
               <MapPin className="w-3.5 h-3.5 text-blue-400" />
-              <span>Remote / Worldwide</span>
+              <span>Pune, India</span>
             </div>
           </div>
         </div>

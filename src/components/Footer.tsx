@@ -14,15 +14,15 @@ export const Footer: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-purple-600 to-blue-600 p-[1.5px] flex items-center justify-center">
               <div className="w-full h-full bg-[#0d121f] rounded-[6px] flex items-center justify-center">
-                <span className="font-mono text-xs font-bold text-white">BK</span>
+                <span className="font-mono text-xs font-bold text-white">BP</span>
               </div>
             </div>
             <div>
               <p className="text-sm font-medium text-slate-300">
-                © 2026 Bhargav. Built with React & Tailwind.
+                © 2026 Bhargav Panchal. Built with React & Tailwind.
               </p>
               <p className="text-xs text-slate-500 font-mono">
-                Production-grade Fintech & MERN Stack Engineering
+                Production-grade FinTech & SaaS MERN Engineering
               </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
           {/* Socials & Back to top */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com/bhargav"
+              href="https://github.com/Bhargav02-2003"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-lg bg-[#0e1626] border border-white/5 hover:border-purple-500/30 text-slate-400 hover:text-white transition-colors"
@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
               <Github className="w-4 h-4" />
             </a>
             <a
-              href="https://linkedin.com/in/bhargav-developer"
+              href="https://linkedin.com/in/bhargav-panchal-3a19aa3b3"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-lg bg-[#0e1626] border border-white/5 hover:border-blue-500/30 text-slate-400 hover:text-white transition-colors"

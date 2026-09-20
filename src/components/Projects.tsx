@@ -13,6 +13,7 @@ import {
   Music, 
   Coins, 
   Building2,
+  BarChart3,
   X,
   Info
 } from 'lucide-react';
@@ -22,12 +23,12 @@ export const Projects: React.FC = () => {
 
   const getProjectIcon = (id: string) => {
     switch (id) {
-      case 'dualbeats':
-        return <Music className="w-5 h-5 text-purple-400" />;
       case 'unigold-finances':
         return <Coins className="w-5 h-5 text-amber-400" />;
-      case 'los-lms':
-        return <Building2 className="w-5 h-5 text-blue-400" />;
+      case 'fluxt':
+        return <BarChart3 className="w-5 h-5 text-cyan-400" />;
+      case 'dualbeats':
+        return <Music className="w-5 h-5 text-purple-400" />;
       default:
         return <Layers className="w-5 h-5 text-purple-400" />;
     }
@@ -51,7 +52,7 @@ export const Projects: React.FC = () => {
             Featured Projects
           </h2>
           <p className="text-base sm:text-lg text-slate-400 leading-relaxed">
-            Real-world platforms deployed in production, spanning real-time WebSockets, fintech KYC/AML systems, and enterprise loan origination microservices.
+            Real-world platforms delivered in production, spanning production FinTech lending (UniGold Finances), enterprise HR analytics (FluxT), and real-time AWS WebSocket sync (DualBeats).
           </p>
         </div>
 

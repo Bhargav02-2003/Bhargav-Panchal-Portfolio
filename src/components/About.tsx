@@ -129,7 +129,7 @@ export const About: React.FC = () => {
                 <span className="text-purple-400">const</span> developer = &#123;
               </div>
               <div className="pl-4">
-                <span className="text-blue-400">name:</span> <span className="text-emerald-300">"Bhargav"</span>,
+                <span className="text-blue-400">name:</span> <span className="text-emerald-300">"Bhargav Panchal"</span>,
               </div>
               <div className="pl-4">
                 <span className="text-blue-400">role:</span> <span className="text-emerald-300">"Full Stack Developer"</span>,
@@ -138,15 +138,18 @@ export const About: React.FC = () => {
                 <span className="text-blue-400">experience:</span> <span className="text-amber-300">"~{currentExperience.formattedDecimal} Years"</span>,
               </div>
               <div className="pl-4">
+                <span className="text-blue-400">company:</span> <span className="text-purple-300">"Celestiq DataTech"</span>,
+              </div>
+              <div className="pl-4">
                 <span className="text-blue-400">coreStack:</span> [
-                <span className="text-purple-300">"React"</span>, <span className="text-purple-300">"Next.js"</span>, <span className="text-purple-300">"Node.js"</span>, <span className="text-purple-300">"Express"</span>, <span className="text-purple-300">"MongoDB"</span>, <span className="text-purple-300">"TypeScript"</span>
+                <span className="text-purple-300">"React.js"</span>, <span className="text-purple-300">"Next.js"</span>, <span className="text-purple-300">"Node.js"</span>, <span className="text-purple-300">"Express.js"</span>, <span className="text-purple-300">"MongoDB"</span>, <span className="text-purple-300">"TypeScript"</span>
                 ],
               </div>
               <div className="pl-4">
-                <span className="text-blue-400">domains:</span> [<span className="text-emerald-300">"Fintech KYC/DigiLocker"</span>, <span className="text-emerald-300">"Enterprise HR & LMS"</span>],
+                <span className="text-blue-400">domains:</span> [<span className="text-emerald-300">"FinTech Lending & KYC/AML"</span>, <span className="text-emerald-300">"Enterprise HR Analytics"</span>, <span className="text-emerald-300">"Real-Time Sync"</span>],
               </div>
               <div className="pl-4">
-                <span className="text-blue-400">cloudOps:</span> [<span className="text-cyan-300">"AWS EC2"</span>, <span className="text-cyan-300">"Docker"</span>, <span className="text-cyan-300">"Nginx"</span>, <span className="text-cyan-300">"SSL/TLS"</span>],
+                <span className="text-blue-400">cloudOps:</span> [<span className="text-cyan-300">"AWS EC2"</span>, <span className="text-cyan-300">"Docker"</span>, <span className="text-cyan-300">"Nginx"</span>, <span className="text-cyan-300">"DuckDNS / PM2"</span>],
               </div>
               <div className="pl-4">
                 <span className="text-blue-400">status:</span> <span className="text-emerald-400 font-semibold">"Ready for High-Impact Roles"</span>
