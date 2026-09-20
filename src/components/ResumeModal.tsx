@@ -1,6 +1,7 @@
 import React from 'react';
 import { X, Download, Printer, Copy, Check, Briefcase, GraduationCap, Award, Mail, ExternalLink } from 'lucide-react';
 import { SKILLS_DATA, PROJECTS_DATA } from '../data/portfolioData';
+import { currentExperience } from '../utils/experience';
 
 interface ResumeModalProps {
   isOpen: boolean;
@@ -21,7 +22,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
 BHARGAV - FULL STACK DEVELOPER
 LinkedIn: https://linkedin.com/in/bhargav-developer
 GitHub: https://github.com/bhargav
-Summary: Full Stack Developer with ~2.5 years of experience building production-grade fintech and enterprise applications using React, Next.js, Node.js, Express, MongoDB, and TypeScript.
+Summary: Full Stack Developer with ~${currentExperience.formattedDecimal} years of experience building production-grade fintech and enterprise applications using React, Next.js, Node.js, Express, MongoDB, and TypeScript.
 
 SKILLS:
 - Language: JavaScript (ES6+), TypeScript
@@ -98,7 +99,7 @@ PRODUCTION EXPERIENCE & KEY PROJECTS:
           {/* Candidate Summary */}
           <div className="p-5 rounded-xl bg-[#0a0f1d] border border-white/5">
             <h4 className="text-xl font-bold text-white mb-1">Bhargav</h4>
-            <p className="text-purple-300 font-mono text-xs mb-3">Full Stack Developer • ~2.5 Years Production Experience</p>
+            <p className="text-purple-300 font-mono text-xs mb-3">Full Stack Developer • ~{currentExperience.formattedDecimal} Years Production Experience</p>
             <p className="text-slate-300 text-xs sm:text-sm">
               Full Stack Developer specializing in production fintech and enterprise HR platforms using React, Next.js, Node.js, Express, MongoDB, and TypeScript. Experienced across the full SDLC from architectural estimation and microservices development to AWS EC2 containerized deployment and production maintenance.
             </p>

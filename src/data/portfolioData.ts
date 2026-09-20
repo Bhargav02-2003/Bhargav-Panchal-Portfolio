@@ -1,4 +1,5 @@
 import { SkillItem, SkillCategoryGroup, ProjectItem, StatItem, TestimonialItem } from '../types';
+import { currentExperience } from '../utils/experience';
 
 export const HERO_DATA = {
   tag: 'FULL STACK DEVELOPER',
@@ -6,7 +7,7 @@ export const HERO_DATA = {
   headingPrefix: "Hi, I'm ",
   subtext: 'I build full-stack web applications with the MERN stack.',
   description:
-    'Full Stack Developer with ~2.5 years of experience building production-grade fintech and enterprise applications using React, Next.js, Node.js, Express, MongoDB, and TypeScript.',
+    `Full Stack Developer with ~${currentExperience.formattedDecimal} years of experience building production-grade fintech and enterprise applications using React, Next.js, Node.js, Express, MongoDB, and TypeScript.`,
   techIcons: [
     { name: 'JavaScript', short: 'JS', badge: 'ES6+', color: 'from-yellow-500/20 to-yellow-600/10 border-yellow-500/30 text-yellow-400' },
     { name: 'TypeScript', short: 'TS', badge: 'v5+', color: 'from-blue-600/20 to-cyan-600/10 border-blue-500/30 text-blue-300' },
@@ -55,7 +56,7 @@ export const ABOUT_DATA = {
 
 export const STATS_DATA: StatItem[] = [
   {
-    value: '2.5+ Years',
+    value: currentExperience.displayPlus,
     label: 'Experience',
     description: 'Specializing in MERN & modern enterprise systems',
   },

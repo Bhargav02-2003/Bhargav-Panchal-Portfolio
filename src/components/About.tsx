@@ -1,5 +1,6 @@
 import React from 'react';
 import { ABOUT_DATA, STATS_DATA } from '../data/portfolioData';
+import { currentExperience } from '../utils/experience';
 import { 
   Briefcase, 
   Layers, 
@@ -134,7 +135,7 @@ export const About: React.FC = () => {
                 <span className="text-blue-400">role:</span> <span className="text-emerald-300">"Full Stack Developer"</span>,
               </div>
               <div className="pl-4">
-                <span className="text-blue-400">experience:</span> <span className="text-amber-300">"~2.5 Years"</span>,
+                <span className="text-blue-400">experience:</span> <span className="text-amber-300">"~{currentExperience.formattedDecimal} Years"</span>,
               </div>
               <div className="pl-4">
                 <span className="text-blue-400">coreStack:</span> [
